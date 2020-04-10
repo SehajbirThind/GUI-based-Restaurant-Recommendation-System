@@ -10,7 +10,7 @@ from nltk.tokenize import word_tokenize
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-data = pd.read_csv(r'zomato.csv', encoding ='latin1')
+data = pd.read_csv(r'C:\Users\Unex H\Desktop\Ai Project\GUI-based-Restaurant-Recommendation-System\zomato.csv', encoding ='latin1')
 
 
 
@@ -132,7 +132,7 @@ def restaurant_recommend_func(location,title):
 # Top 5 similar restaurant with cuisine of 'Barbeque Nation' restaurant in Connaught Place
 #print(restaurant_recommend_func('Connaught Place','Pizza Hut'))  ## location & Restaurant Name
 
-tabledata = restaurant_recommend_func('Connaught Place','Starbucks')
+tabledata = restaurant_recommend_func('Connaught Place','Star ')
 
 for i,r in tabledata.iterrows():
     print(i)
