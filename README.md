@@ -1,7 +1,7 @@
 # Brasserie App
 
-This project implements a Restaurant Recommendation System using AI.
-The search algorithm used here is a __content-based-filtering__ technique, which takes city, locality and restaurant name and generates a similarity score index. The search results would then be shown based on the enerated similarity score index .
+This project implements a Restaurant Recommendation System.
+The search algorithm used here is a __content-based-filtering__ technique, which takes city, locality and restaurant name and generates a similarity score index. The search results would then be shown based on the generated similarity score index .
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What libraries you need to run the program and how to install them
+The libraries that you need to run the program and how to install them:
 
 ```
 1. PyQt5
@@ -32,7 +32,7 @@ pip install nltk
 pip install sklearn
 ```
 
-After Installing ntlk, do
+After Installing ntlk, do:
 
 ```
 import nltk
@@ -54,28 +54,22 @@ Note: __/python__ must be added to your system's Global path
 
 ### Using Brasserie App
 
-To get a recommendation from the app, user can follow two pathways:
+To get a recommendation from the app, the user can follow two pathways:
 
 ```
-1. By Entering Restaurant Details (like city, locality and restaurant name).
+1. By Entering the Restaurant Details (like city, locality and restaurant name).
 2. By Selecting one of the Top Recommended Restaurant.
 ```
 
-After filling the details above specified, user will be given its recommendation by searching and generating a
-similarity score index and top five recommendations will be shown.
+After entering the details above specified, the user will be given its recommendation by searching and generating a
+similarity score index, and the top five recommendations will be shown.
 
 
 ## Built With
 
-* [PyQT5](https://pypi.org/project/PyQt5/) - The GUI framework used
+* [PyQt5](https://pypi.org/project/PyQt5/) - The GUI framework used
 
 ## Authors
 
-* **Nishant Pandey** - *Initial work* - [unexh](https://github.com/unexh)
-* **Sehajbir Thind** - *Initial work* - [SehajbirThind](https://github.com/SehajbirThind)
-
-See also the list of [contributors](https://github.com/unexh/project/contributors) who participated in this project.
-
-## Acknowledgments
-
-* Inspiration : [Nagesh Singh Chauhan](https://medium.com/analytics-vidhya/how-to-build-a-restaurant-recommendation-engine-part-1-21aadb5dac6e)
+* **Nishant Pandey** - [unexh](https://github.com/unexh)
+* **Sehajbir Thind** - [SehajbirThind](https://github.com/SehajbirThind)
